@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram SignUp page</title>
+</head>
+<body>
+    <form action="index.html" method="post">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="Username" id="username" autofocus required><br>
+        </div>
+        
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="Email" id="email" required><br>
+        </div>
+        
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="Password" id="password" required><br>
+        </div>
+
+        <div>
+            <label>Gender</label><br>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="Age" id="age">
+        </div>
+
+        <div>
+            <label for="bio">Bio</label>
+            <textarea id="bio"></textarea>
+        </div>
+        
+        <button type="Submit">Sign Up</button>
+    </form>
+</body>
+</html>
